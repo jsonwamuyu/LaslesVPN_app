@@ -3,7 +3,7 @@
 const Hero = () => {
     return(
         <main className="flex flex-col space-y-8 sm:space-y-0 sm:space-x-8 sm:flex-row w-full
-        px-[1rem] sm:px-[3rem] md:px-[6rem] lg:px-[12rem] items-center justify-center sm:pt-[100px]">
+        px-[1rem] sm:px-[3rem] md:px-[6rem] lg:px-[12rem] items-center justify-center sm:pt-[100px] pb-[2rem]">
             <div className="flex flex-col space-y-[20px] sm:w-1/2">
                 <h1 className="font-medium text-[50px] leading-[70px] sm:max-w-[555px]">
                     Want anything to be easy with LaslesVPN.</h1>
