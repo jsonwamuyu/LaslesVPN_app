@@ -9,7 +9,11 @@ const Navbar = () => {
   return (
     <header className='flex items-center justify-between w-full px-[1rem] py-[40px] sm:px-[4rem]'>
         <div className='flex space-x-2 justify-center items-center'>
-            <div className='h-3 w-3 bg-[#F53838]'/>
+            <div className="flex flex-row">
+                <div className='h-6 w-6 bg-[#F53838] rounded-full'/>
+                <div className='h-6 w-6 bg-[#0B132A] rounded-full z-10 -ml-3'/>
+                <div className='h-6 w-6 bg-[#F53838] rounded-full -ml-3'/>
+            </div>
             <h3 className='text-[20px] leading-[24px] font-medium'>Lasles<span  className='font-bold'>VPN</span></h3>
         </div>
         <ul className='hidden sm:flex space-x-[40px] items-center justify-center sm:pl-6'>

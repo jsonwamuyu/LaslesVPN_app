@@ -9,7 +9,7 @@ const Hero = () => {
                     Want anything to be easy with LaslesVPN.</h1>
                 <p className="sm:max-w-[555px] pb-8">
                     Provide a network for all your needs with ease and fun using LaslesVPN discover interesting features from us.</p>
-                <a href="" className="text-white bg-gradient-to-r from-[#F53838] via-blue-500 to-green-500 rounded-[10px] h-[50px] w-[220px] flex items-center justify-center
+                <a href="" className="text-white bg-[#F53838] rounded-[10px] h-[50px] w-[220px] flex items-center justify-center
                 hover:text-[#F53838] border hover:border-[#F53838] hover:bg-transparent transition-all duration-300 shadow-md">Get Started</a>
             </div>
             <div className="flex sm:w-1/2 bg-blue-400 items-center justify-center">
