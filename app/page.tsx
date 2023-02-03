@@ -6,6 +6,7 @@ import Hero from './conponents/Hero'
 import Burnner from './conponents/Burnner'
 import Features from './conponents/Features';
 import Plan from './conponents/Plan';
+import Customers from './conponents/Customers'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -17,6 +18,7 @@ export default function Home() {
       <Burnner />
       <Features />
       <Plan />
+      <Customers />
     </>
   )
 }
