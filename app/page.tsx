@@ -7,6 +7,8 @@ import Burnner from './conponents/Burnner'
 import Features from './conponents/Features';
 import Plan from './conponents/Plan';
 import Customers from './conponents/Customers'
+import Global from './conponents/Global';
+import Suscribe from './conponents/Subscribe'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -18,7 +20,9 @@ export default function Home() {
       <Burnner />
       <Features />
       <Plan />
+      <Global />
       <Customers />
+      <Suscribe />
     </>
   )
 }
