@@ -1,7 +1,7 @@
 const Suscribe = () =>{
     return(
-        <section className="flex flex-col z-50 sm:flex-row items-center  sm:justify-between mb-[10rem]
-        bg-white shadow-lg  lg:max-w-[1140px] -mt-[95px] space-y-6 
+        <section className="flex flex-col z-100 sm:flex-row items-center  sm:justify-between mb-[10rem]
+        bg-white shadow-lg  lg:max-w-[1140px] -mt-[80px] space-y-6 
         sm:space-y-0 w-[90%] mx-auto p-9
         ">
             <div className="flex flex-col space-y-3 items-center justify-center sm:items-start sm:justify-start">
